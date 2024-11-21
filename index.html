@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Convex</title>
+  <link href="./src/output.css" rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflnpm install -D tailwindcssare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="shortcut icon" href="./img/letter-c.png" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <div class="container2 flex justify-between items-center py-[15px] border-b border-b-[#0000000c]">
+      <nav>
+        <a href="./index.html"><img src="./img/Logo.png" alt="" class="w-[50%]" />
+        </a>
+      </nav>
+
+      <nav>
+        <a href="#!" class="font-[600]">8 800 080 5011</a>
+      </nav>
+
+      <input type="search" placeholder="Поиск товаров"
+        class="bg-[#00000009] w-[45%] p-[10px] rounded-[20px] text-center max-[958px]:hidden" />
+
+      <nav>
+        <a href="#!"><i class="fa-solid fa-location-dot text-[#1c941c]"></i>
+          Нур-Султан</a>
+      </nav>
+
+      <a href="#!" class="px-[15px] py-[5px] border border-[#0000000a] rounded-3xl">Войти</a>
+    </div>
+  </header>
+
+  <div class="py-[10px]">
+    <div class="container2">
+      <ul class="flex justify-between items-center max-[1000px]:hidden">
+        <li><a href="#!">Продукты</a></li>
+        <li><a href="#!">Еда быстрого приготовления</a></li>
+        <li><a href="#!">Консервы</a></li>
+        <li><a href="#!">Напитки</a></li>
+        <li><a href="#!">Бытовая химия</a></li>
+        <li><a href="#!">Уход за собой</a></li>
+        <li><a href="#!">Еще</a></li>
+        <a href="#!" class="px-[10px] py-[6px] rounded-md bg-[#46C578] text-[#fff]">Корзина</a>
+      </ul>
+    </div>
+  </div>
+
+  <div class="showcase">
+    <div class="container2">
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="img-box h-[500px] w-full">
+              <img src="./img/home1.png" alt="" class="object-cover w-full h-full">
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="img-box h-[500px] w-full">
+              <img src="./img/home1.png" alt="" class="object-cover w-full h-full">
+            </div>
+          </div>
+
+
+          <div class="swiper-slide">
+            <div class="img-box h-[500px] w-full">
+              <img src="./img/home1.png" alt="" class="object-cover w-full h-full">
+            </div>
+          </div>
+
+
+
+          <div class="swiper-slide">
+            <div class="img-box h-[500px] w-full">
+              <img src="./img/home1.png" alt="" class="object-cover w-full h-full">
+            </div>
+          </div>
+
+
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="grid-box py-[20px]">
+    <div class="container2">
+      <div class="grid grid-cols-4 gap-[20px] max-[855px]:grid-cols-2">
+        <div class="h-[200px] bg-[#FA6A6A] flex justify-center items-center rounded-xl">
+          <img src="./img/card1.png" alt="" class="w-[50%]">
+        </div>
+
+        <div class="h-[200px] bg-[#A8CBFF] flex justify-center items-center rounded-xl">
+          <img src="./img/card2.png" alt="" class="w-[50%]">
+        </div>
+
+        <div class="h-[200px] bg-[#8470FF] flex justify-center items-center rounded-xl">
+          <img src="./img/card3.png" alt="" class="w-[50%]">
+        </div>
+
+        <div class="h-[200px] bg-[#FFD37D] flex justify-center items-center rounded-xl">
+          <img src="./img/card4.png" alt="" class="w-[50%]">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="py-[20px]">
+    <div class="container2">
+      <h1 class="text-[36px] font-[700]">Акции</h1>
+
+
+      <!-- Swiper -->
+      <div class="swiper mySwiper2">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="item h-[320px] border flex justify-between flex-col p-[20px]">
+              <div class="item_img h-[30%]">
+                <img src="./img/products/1.png" alt="" class="h-[100%] w-[100%] object-contain">
+              </div>
+
+              <div class="h-[70%] flex flex-col justify-end items-start gap-[10px] text-left">
+                <p>Конина тушеная Улан, есть
+                  возможность в 2 строки</p>
+
+                <p>Вес: 130гр</p>
+
+                <div class="flex justify-between items-center w-full">
+                  <h3 class="font-[700] text-[red]">24 320 тг.</h3>
+                  <a href="#!" class="px-[10px] py-[5px] rounded-md bg-[#46C578] text-[#fff]">В корзину</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="item h-[320px] border flex justify-between flex-col p-[20px]">
+              <div class="item_img h-[30%]">
+                <img src="./img/products/1.png" alt="" class="h-[100%] w-[100%] object-contain">
+              </div>
+
+              <div class="h-[70%] flex flex-col justify-end items-start gap-[10px] text-left">
+                <p>Конина тушеная Улан, есть
+                  возможность в 2 строки</p>
+
+                <p>Вес: 130гр</p>
+
+                <div class="flex justify-between items-center w-full">
+                  <h3 class="font-[700] text-[red]">24 320 тг.</h3>
+                  <a href="#!" class="px-[10px] py-[5px] rounded-md bg-[#46C578] text-[#fff]">В корзину</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="item h-[320px] border flex justify-between flex-col p-[20px]">
+              <div class="item_img h-[30%]">
+                <img src="./img/products/1.png" alt="" class="h-[100%] w-[100%] object-contain">
+              </div>
+
+              <div class="h-[70%] flex flex-col justify-end items-start gap-[10px] text-left">
+                <p>Конина тушеная Улан, есть
+                  возможность в 2 строки</p>
+
+                <p>Вес: 130гр</p>
+
+                <div class="flex justify-between items-center w-full">
+                  <h3 class="font-[700] text-[red]">24 320 тг.</h3>
+                  <a href="#!" class="px-[10px] py-[5px] rounded-md bg-[#46C578] text-[#fff]">В корзину</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="item h-[320px] border flex justify-between flex-col p-[20px]">
+              <div class="item_img h-[30%]">
+                <img src="./img/products/1.png" alt="" class="h-[100%] w-[100%] object-contain">
+              </div>
+
+              <div class="h-[70%] flex flex-col justify-end items-start gap-[10px] text-left">
+                <p>Конина тушеная Улан, есть
+                  возможность в 2 строки</p>
+
+                <p>Вес: 130гр</p>
+
+                <div class="flex justify-between items-center w-full">
+                  <h3 class="font-[700] text-[red]">24 320 тг.</h3>
+                  <a href="#!" class="px-[10px] py-[5px] rounded-md bg-[#46C578] text-[#fff]">В корзину</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+
+
+
+    </div>
+  </div>
+
+  <div class="py-[20px]">
+    <div class="container2">
+      <h1 class="text-[36px] font-[700]">Новинки</h1>
+
+
+      <!-- Swiper -->
+      <div class="swiper mySwiper2">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="item h-[320px] border flex justify-between flex-col p-[20px]">
+              <div class="item_img h-[30%]">
+                <img src="./img/products/1.png" alt="" class="h-[100%] w-[100%] object-contain">
+              </div>
+
+              <div class="h-[70%] flex flex-col justify-end items-start gap-[10px] text-left">
+                <p>Конина тушеная Улан, есть
+                  возможность в 2 строки</p>
+
+                <p>Вес: 130гр</p>
+
+                <div class="flex justify-between items-center w-full">
+                  <h3 class="font-[700] text-[red]">24 320 тг.</h3>
+                  <a href="#!" class="px-[10px] py-[5px] rounded-md bg-[#46C578] text-[#fff]">В корзину</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="item h-[320px] border flex justify-between flex-col p-[20px]">
+              <div class="item_img h-[30%]">
+                <img src="./img/products/1.png" alt="" class="h-[100%] w-[100%] object-contain">
+              </div>
+
+              <div class="h-[70%] flex flex-col justify-end items-start gap-[10px] text-left">
+                <p>Конина тушеная Улан, есть
+                  возможность в 2 строки</p>
+
+                <p>Вес: 130гр</p>
+
+                <div class="flex justify-between items-center w-full">
+                  <h3 class="font-[700] text-[red]">24 320 тг.</h3>
+                  <a href="#!" class="px-[10px] py-[5px] rounded-md bg-[#46C578] text-[#fff]">В корзину</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="item h-[320px] border flex justify-between flex-col p-[20px]">
+              <div class="item_img h-[30%]">
+                <img src="./img/products/1.png" alt="" class="h-[100%] w-[100%] object-contain">
+              </div>
+
+              <div class="h-[70%] flex flex-col justify-end items-start gap-[10px] text-left">
+                <p>Конина тушеная Улан, есть
+                  возможность в 2 строки</p>
+
+                <p>Вес: 130гр</p>
+
+                <div class="flex justify-between items-center w-full">
+                  <h3 class="font-[700] text-[red]">24 320 тг.</h3>
+                  <a href="#!" class="px-[10px] py-[5px] rounded-md bg-[#46C578] text-[#fff]">В корзину</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="item h-[320px] border flex justify-between flex-col p-[20px]">
+              <div class="item_img h-[30%]">
+                <img src="./img/products/1.png" alt="" class="h-[100%] w-[100%] object-contain">
+              </div>
+
+              <div class="h-[70%] flex flex-col justify-end items-start gap-[10px] text-left">
+                <p>Конина тушеная Улан, есть
+                  возможность в 2 строки</p>
+
+                <p>Вес: 130гр</p>
+
+                <div class="flex justify-between items-center w-full">
+                  <h3 class="font-[700] text-[red]">24 320 тг.</h3>
+                  <a href="#!" class="px-[10px] py-[5px] rounded-md bg-[#46C578] text-[#fff]">В корзину</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+
+
+
+    </div>
+  </div>
+
+
+
+
+  <div class="py-[20px]">
+    <div class="container2">
+      <h1 class="text-[36px] font-[700]">Популярные товары</h1>
+
+
+      <!-- Swiper -->
+      <div class="swiper mySwiper2">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="item h-[320px] border flex justify-between flex-col p-[20px]">
+              <div class="item_img h-[30%]">
+                <img src="./img/products/1.png" alt="" class="h-[100%] w-[100%] object-contain">
+              </div>
+
+              <div class="h-[70%] flex flex-col justify-end items-start gap-[10px] text-left">
+                <p>Конина тушеная Улан, есть
+                  возможность в 2 строки</p>
+
+                <p>Вес: 130гр</p>
+
+                <div class="flex justify-between items-center w-full">
+                  <h3 class="font-[700] text-[red]">24 320 тг.</h3>
+                  <a href="#!" class="px-[10px] py-[5px] rounded-md bg-[#46C578] text-[#fff]">В корзину</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="item h-[320px] border flex justify-between flex-col p-[20px]">
+              <div class="item_img h-[30%]">
+                <img src="./img/products/1.png" alt="" class="h-[100%] w-[100%] object-contain">
+              </div>
+
+              <div class="h-[70%] flex flex-col justify-end items-start gap-[10px] text-left">
+                <p>Конина тушеная Улан, есть
+                  возможность в 2 строки</p>
+
+                <p>Вес: 130гр</p>
+
+                <div class="flex justify-between items-center w-full">
+                  <h3 class="font-[700] text-[red]">24 320 тг.</h3>
+                  <a href="#!" class="px-[10px] py-[5px] rounded-md bg-[#46C578] text-[#fff]">В корзину</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="item h-[320px] border flex justify-between flex-col p-[20px]">
+              <div class="item_img h-[30%]">
+                <img src="./img/products/1.png" alt="" class="h-[100%] w-[100%] object-contain">
+              </div>
+
+              <div class="h-[70%] flex flex-col justify-end items-start gap-[10px] text-left">
+                <p>Конина тушеная Улан, есть
+                  возможность в 2 строки</p>
+
+                <p>Вес: 130гр</p>
+
+                <div class="flex justify-between items-center w-full">
+                  <h3 class="font-[700] text-[red]">24 320 тг.</h3>
+                  <a href="#!" class="px-[10px] py-[5px] rounded-md bg-[#46C578] text-[#fff]">В корзину</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="item h-[320px] border flex justify-between flex-col p-[20px]">
+              <div class="item_img h-[30%]">
+                <img src="./img/products/1.png" alt="" class="h-[100%] w-[100%] object-contain">
+              </div>
+
+              <div class="h-[70%] flex flex-col justify-end items-start gap-[10px] text-left">
+                <p>Конина тушеная Улан, есть
+                  возможность в 2 строки</p>
+
+                <p>Вес: 130гр</p>
+
+                <div class="flex justify-between items-center w-full">
+                  <h3 class="font-[700] text-[red]">24 320 тг.</h3>
+                  <a href="#!" class="px-[10px] py-[5px] rounded-md bg-[#46C578] text-[#fff]">В корзину</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+
+
+
+    </div>
+  </div>
+
+
+  <footer class="py-[20px]">
+    <div class="container2  flex flex-col gap-[10px] py-[20px]">
+      <ul class="flex justify-between items-center font-[600] max-[788px]:flex-col gap-[20px]">
+        <li><a href="#!">О компании</a></li>
+        <li><a href="#!">Вопрос-Ответ</a></li>
+        <li><a href="#!">Новости</a></li>
+        <li><a href="#!">Контакты</a></li>
+        <li><a href="#!">Пополнение баланса</a></li>
+
+        <li><a href="tel:8 800 080 50 11">8 800 080 50 11</a></li>
+      </ul>
+
+      <div class="flex justify-between border-t py-[19px] max-[788px]:flex-col max-[788px]:justify-center items-center gap-[20px]">
+        <p>2019 © Convex</p>
+        <p>Политика конфиденциальности</p>
+        <p>Публичная оферта</p>
+        <p>Условия возврата</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="./js.js"></script>
+</body>
+
+</html>
